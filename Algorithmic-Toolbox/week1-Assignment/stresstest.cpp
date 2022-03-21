@@ -1,5 +1,14 @@
                                  //  In the name of of Allah  //
                       //O Allah, peace and blessings upon the Prophet Muhammad//
+
+
+
+
+
+// This stress test work on Algorithm 2 Maximum Pairwise Product with slow and fast solution ...
+
+
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
