@@ -10,7 +10,7 @@ int main(){
     ios::sync_with_stdio(0);
     int n ,x;
     long long result ;
-    vector <int> vv ;
+    vector <long long > vv ;
     cin>>n ;
     for (int i = 0 ;i<n ; i++){
         cin>>x ;
