@@ -14,7 +14,7 @@
 #include <map>
 #include <numeric>
 using namespace std ;
-long long  last_digit_fib (int n ){
+int  last_digit_fib (int n ){
     vector <long long > fibnum  ;
     fibnum.push_back(0) ;
     fibnum.push_back(1);
