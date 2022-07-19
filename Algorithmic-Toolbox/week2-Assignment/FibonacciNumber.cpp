@@ -19,7 +19,7 @@ int fibonacci_fast(int n) {
     }
     return fibnum[n];
 
-    return 0;
+  
 }
 
 void test_solution() {
