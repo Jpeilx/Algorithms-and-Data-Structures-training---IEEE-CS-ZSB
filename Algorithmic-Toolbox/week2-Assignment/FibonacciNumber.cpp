@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cassert>
-
+#include <vector>
 
 int fibonacci_naive(int n) {
     if (n <= 1)
