@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cassert>
 #include <vector>
-
+using namespace std ; 
 int fibonacci_naive(int n) {
     if (n <= 1)
         return n;
@@ -31,10 +31,10 @@ void test_solution() {
 
 int main() {
     int n = 0;
-    std::cin >> n;
+    cin >> n;
 
     //std::cout << fibonacci_naive(n) << '\n';
     //test_solution();
-    std::cout << fibonacci_fast(n) << '\n';
+    cout << fibonacci_fast(n) << '\n';
     return 0;
 }
