@@ -14,7 +14,7 @@ int gcd_naive(int a, int b) {
 int gcd_fast(int a , int b ){
     if (b==0)
         return  a ;
-    return greatestCommonDivisor(b,a%b);
+    return gcd_fast(b,a%b);
 
 }
 
